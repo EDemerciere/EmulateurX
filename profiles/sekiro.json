@@ -1,0 +1,21 @@
+{
+  "profile": "sekiro",
+  "buttons": {
+    "SOUTH":  { "type": "key",   "value": "space"  },
+    "EAST":   { "type": "key",   "value": "e"      },
+    "WEST":   { "type": "key",   "value": "r"      },
+    "NORTH":  { "type": "key",   "value": "ctrl"   },
+    "L1":     { "type": "key",   "value": "f"      },
+    "R1":     { "type": "key",   "value": "shift"  },
+    "R2":     { "type": "mouse", "value": "left"   },
+    "L2":     { "type": "mouse", "value": "right"  },
+    "SELECT": { "type": "key",   "value": "tab"    },
+    "START":  { "type": "key",   "value": "escape" }
+  },
+  "axes": {
+    "AXIS_LX": { "type": "key_pair",   "neg": "q", "pos": "d", "threshold": 0.45 },
+    "AXIS_LY": { "type": "key_pair",   "neg": "z", "pos": "s", "threshold": 0.45 },
+    "AXIS_RX": { "type": "mouse_move", "axis": "x", "sensitivity": 12 },
+    "AXIS_RY": { "type": "mouse_move", "axis": "y", "sensitivity": 12 }
+  }
+}

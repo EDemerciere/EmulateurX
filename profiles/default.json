@@ -1,0 +1,21 @@
+{
+  "profile": "default",
+  "buttons": {
+    "SOUTH":  { "type": "key",   "value": "space"  },
+    "EAST":   { "type": "key",   "value": "e"      },
+    "WEST":   { "type": "key",   "value": "r"      },
+    "NORTH":  { "type": "key",   "value": "f"      },
+    "L1":     { "type": "key",   "value": "q"      },
+    "R1":     { "type": "key",   "value": "shift"  },
+    "R2":     { "type": "mouse", "value": "left"   },
+    "L2":     { "type": "mouse", "value": "right"  },
+    "SELECT": { "type": "key",   "value": "tab"    },
+    "START":  { "type": "key",   "value": "escape" }
+  },
+  "axes": {
+    "AXIS_LX": { "type": "key_pair",   "neg": "a", "pos": "d", "threshold": 0.5 },
+    "AXIS_LY": { "type": "key_pair",   "neg": "w", "pos": "s", "threshold": 0.5 },
+    "AXIS_RX": { "type": "mouse_move", "axis": "x", "sensitivity": 10 },
+    "AXIS_RY": { "type": "mouse_move", "axis": "y", "sensitivity": 10 }
+  }
+}
